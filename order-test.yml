@@ -5,4 +5,4 @@ spring:
     password: Admin@2009
     url: jdbc:mysql://rdsv148e9hymz8rj85wqo.mysql.rds.aliyuncs.com:3306/springcloud_test?characterEncoding=utf-8&useSSL=fa
 env:
-  test
+  test3
