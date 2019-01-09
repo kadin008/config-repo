@@ -1,2 +1,9 @@
 env:
   dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 9000
