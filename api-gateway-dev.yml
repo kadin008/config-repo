@@ -12,6 +12,10 @@ zuul:
   host:
     socket-timeout-millis: 60000
     connect-timeout-millis: 60000
+  routes:
+    myConfig:
+      path: /myConfig/**
+      serviceId: config
 
 hystrix:
   command:
@@ -24,3 +28,6 @@ hystrix:
 ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
+
+  
+
